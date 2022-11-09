@@ -12,3 +12,5 @@ A orquestração foi definida usando o Airflow, usando o SparkSubmitOperator par
 Foram consumidas api's de ações e api's com dados públicos, como dados da covid. 
 
 Todo o projeto foi executado em uma máquina Ubuntu na AWS, usando o Lambda para programar o start-stop da VM.
+
+**Repositório em desenvolvimento
