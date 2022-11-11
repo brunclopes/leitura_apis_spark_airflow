@@ -29,7 +29,16 @@ Dag graph:
 
 ![image](https://user-images.githubusercontent.com/86599110/201266761-faab6a97-ec74-46d8-b86b-1028ab9cab68.png)
 
-Script Python criado com o AWS Lambda para o start-stop da vm no EC2.
+Script Python criado com o AWS Lambda para o start-stop da vm no EC2:
 
-![image](https://user-images.githubusercontent.com/86599110/201266933-a1646079-c22a-44cb-9d26-4b79bc687e5e.png)
+![image](https://user-images.githubusercontent.com/86599110/201267002-d7655ebe-8e30-42bd-acb9-b82661302526.png)
+
+Regras criadas para o start e stop da vm no EventBridge:
+
+![image](https://user-images.githubusercontent.com/86599110/201267141-c51e32fe-c828-4dd3-b308-edff232aa0d5.png)
+
+Script de Copy dos dados do s3 em parquet para o Redshift: 
+
+![image](https://user-images.githubusercontent.com/86599110/201267381-6e155f78-d53c-4817-abb5-47334fde24cd.png)
+
 
