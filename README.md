@@ -29,6 +29,10 @@ Dag graph:
 
 ![image](https://user-images.githubusercontent.com/86599110/201266761-faab6a97-ec74-46d8-b86b-1028ab9cab68.png)
 
+Dados localizados no S3:
+
+![image](https://user-images.githubusercontent.com/86599110/201273467-4647a227-4af5-4843-b9ae-2791389d854c.png)
+
 Script Python criado com o AWS Lambda para o start-stop da vm no EC2:
 
 ![image](https://user-images.githubusercontent.com/86599110/201267002-d7655ebe-8e30-42bd-acb9-b82661302526.png)
