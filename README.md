@@ -1,5 +1,5 @@
 # leitura_apis_spark_airflow
-Repositório contendo projeto pessoal de estudos utilizando o Apache Spark para o ETL e o Airflow para orquestração
+Repositório contendo projeto pessoal de estudos utilizando o Apache Spark para a primeira fase do ETL, airflow para orquestração e o dbt para ETL no dw (parte final).  
 
 O ambiente foi construído usando o docker, com os containeres do Airflow e Spark.
 
@@ -11,7 +11,7 @@ A orquestração foi definida usando o Airflow, usando o SparkSubmitOperator par
 
 Foram consumidas api's de ações e api's com dados públicos, como dados da covid. 
 
-Todo o projeto foi executado em uma máquina Ubuntu na AWS, usando o Lambda para programar o start-stop da VM.
+Todo o projeto foi executado em uma máquina Ubuntu na AWS, usando o Lambda para criação da função de start-stop da VM, e o EventBridge para execução do processo. 
 
 O container docker foi aproveitado de um projeto executado pelo Rodrigo Azevedo. Link do repositório: https://github.com/razevedo1994/airflow_and_spark_docker_environment
 
@@ -41,4 +41,6 @@ Script de Copy dos dados do s3 em parquet para o Redshift:
 
 ![image](https://user-images.githubusercontent.com/86599110/201267381-6e155f78-d53c-4817-abb5-47334fde24cd.png)
 
+Dados consultados no Redshift antes do tratamento:
 
+![image](https://user-images.githubusercontent.com/86599110/201267797-c286b6d8-a0ff-441a-9557-ace8966dfc41.png)
