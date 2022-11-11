@@ -29,9 +29,9 @@ Dag graph:
 
 ![image](https://user-images.githubusercontent.com/86599110/201266761-faab6a97-ec74-46d8-b86b-1028ab9cab68.png)
 
-Dados localizados no S3:
+Dados localizados no S3 após o particionamento:
 
-![image](https://user-images.githubusercontent.com/86599110/201273467-4647a227-4af5-4843-b9ae-2791389d854c.png)
+![image](https://user-images.githubusercontent.com/86599110/201273574-5a09f641-fd7e-4ac7-8622-df1cea57c198.png)
 
 Script Python criado com o AWS Lambda para o start-stop da vm no EC2:
 
