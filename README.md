@@ -41,6 +41,6 @@ Script de Copy dos dados do s3 em parquet para o Redshift:
 
 ![image](https://user-images.githubusercontent.com/86599110/201267381-6e155f78-d53c-4817-abb5-47334fde24cd.png)
 
-Dados consultados no Redshift antes do tratamento:
+Dados consultados no Redshift antes do tratamento para o DW:
 
 ![image](https://user-images.githubusercontent.com/86599110/201267797-c286b6d8-a0ff-441a-9557-ace8966dfc41.png)
