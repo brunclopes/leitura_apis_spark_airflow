@@ -1,7 +1,7 @@
 # leitura_apis_spark_airflow
-Repositório contendo projeto pessoal de estudos utilizando o Apache Spark para a primeira fase do ETL, airflow para orquestração e o dbt para ETL no dw (parte final).  
+Repositório contendo projeto pessoal de estudos utilizando o Apache Spark para a primeira fase do ETL, airflow para orquestração e cópia dos dados para o Data Warehouse (parte final). Também foi trabalhado com o conceito de lakehouse, realizando as ingestões em Delta.
 
-O ambiente foi construído usando o docker, com os containeres do Airflow e Spark.
+O ambiente foi construído usando o docker, com os containeres do Airflow e Spark, rodando em uma vm na AWS EC2.
 
 O objetivo foi consumir api's públicas/gratuitas e realizar a ingestão em uma camada raw (dado cru), em parquet e delta. 
 Na camada trusted, foi realizada a limpeza dos dados, trazendo a última data de processamento de cada registro. 
@@ -9,7 +9,7 @@ E por fim, na camada refined, foi realizada a ingestão com os dados tratados e 
 
 A orquestração foi definida usando o Airflow, usando o SparkSubmitOperator para realizar a conexão com o container do spark.
 
-Foram consumidas api's de ações e api's com dados públicos, como dados da covid. 
+Foram consumidas Api's de ações e com dados públicos, como dados da covid. 
 
 Todo o projeto foi executado em uma máquina Ubuntu na AWS, usando o Lambda para criação da função de start-stop da VM, e o EventBridge para execução do processo. 
 
